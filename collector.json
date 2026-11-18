@@ -1,0 +1,5115 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "timestamp": 1794995798.3981502,
+    "scan_time": "2026-11-18 15:26:38",
+    "refresh_interval_sec": 1.5,
+    "active_user": "bhuva",
+    "total_apps_tracked": 123,
+    "running_apps_count": 107,
+    "active_hardware_count": 0,
+    "apps_with_file_reach": 0
+  },
+  "timestamp": 1794995798.3981502,
+  "scan_time": "2026-11-18 15:26:38",
+  "refresh_interval_sec": 1.5,
+  "total_apps_tracked": 123,
+  "active_hardware_count": 0,
+  "running_apps_count": 107,
+  "apps_with_file_reach": 0,
+  "skeleton": {
+    "ring1_windows": [
+      "Windows"
+    ],
+    "ring2_drive": [
+      "C:\\Program Files",
+      "C:\\Program Files (x86)",
+      "C:\\ProgramData"
+    ],
+    "ring3_users": [
+      "All Users",
+      "bhuva",
+      "Default",
+      "Default User",
+      "Public",
+      "WsiAccount"
+    ],
+    "ring4_active_user": {
+      "username": "bhuva",
+      "subdirectories": [
+        "AppData",
+        "Downloads",
+        "Documents",
+        "Pictures",
+        "Music",
+        "Videos"
+      ]
+    }
+  },
+  "file_summary": {
+    "monitored_folders": [
+      "Pictures (C:\\Users\\bhuva\\OneDrive\\Pictures)",
+      "Documents (C:\\Users\\bhuva\\OneDrive\\Documents)",
+      "Desktop (C:\\Users\\bhuva\\OneDrive\\Desktop)",
+      "Downloads (C:\\Users\\bhuva\\Downloads)",
+      "Pictures (C:\\Users\\bhuva\\Pictures)",
+      "Documents (C:\\Users\\bhuva\\Documents)"
+    ],
+    "folder_counts": {
+      "Pictures": 0,
+      "Documents": 0,
+      "Desktop": 0,
+      "Downloads": 0
+    },
+    "recent_events": [],
+    "app_activity": {}
+  },
+  "apps": [
+    {
+      "app_name": "Google Chrome",
+      "process_name": "chrome.exe",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "exe_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Google",
+          "Google Chrome"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "parent_dir": "C:\\Program Files\\Google\\Chrome\\Application",
+        "is_pwa": false
+      },
+      "pids": [
+        1256,
+        2064,
+        4372,
+        5896,
+        5972,
+        6904,
+        7044,
+        8040,
+        8336,
+        10160,
+        10888,
+        11116,
+        12008,
+        13000,
+        13700,
+        14728,
+        15204,
+        16340,
+        16564,
+        18292,
+        18304,
+        19444,
+        19712,
+        20156,
+        20252,
+        20288,
+        21396,
+        22240,
+        22656,
+        23156,
+        23604,
+        24564,
+        26088,
+        26692,
+        26936,
+        27328,
+        27588
+      ],
+      "primary_pid": 1256,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-08-22 11:46:20",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-08-22 10:54:17"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Comet",
+      "process_name": "comet.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Perplexity\\Comet\\Application\\comet.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Perplexity\\Comet\\Application\\comet.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Comet"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Perplexity\\Comet\\Application\\comet.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Perplexity\\Comet\\Application",
+        "is_pwa": false
+      },
+      "pids": [
+        1908,
+        3200,
+        3600,
+        4132,
+        5412,
+        6720,
+        8340,
+        9332,
+        9940,
+        10884,
+        10904,
+        14432,
+        15644,
+        21256,
+        27032,
+        27100,
+        29064,
+        30068,
+        30192
+      ],
+      "primary_pid": 1908,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-08-21 16:37:34",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-02-19 17:14:17"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "ShellHost",
+      "process_name": "ShellHost.exe",
+      "path": "C:\\Windows\\System32\\ShellHost.exe",
+      "exe_path": "C:\\Windows\\System32\\ShellHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "ShellHost"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\ShellHost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        9192,
+        10444
+      ],
+      "primary_pid": 9192,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-08-10 14:47:23"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "5319275A.WhatsAppDesktop",
+      "process_name": "5319275A.WhatsAppDesktop",
+      "path": "5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+      "exe_path": "5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "5319275A.WhatsAppDesktop"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+        "parent_dir": "C:\\Program Files\\WindowsApps",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-06-13 11:36:09",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft.Copilot",
+      "process_name": "Microsoft.Copilot",
+      "path": "Microsoft.Copilot_8wekyb3d8bbwe",
+      "exe_path": "Microsoft.Copilot_8wekyb3d8bbwe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Microsoft.Copilot"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_8wekyb3d8bbwe",
+        "parent_dir": "C:\\Program Files\\WindowsApps",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-02-21 16:57:58",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "GTA5.exe",
+      "process_name": "GTA5.exe",
+      "path": "C:\\Games\\Grand Theft Auto V\\GTA5.exe",
+      "exe_path": "C:\\Games\\Grand Theft Auto V\\GTA5.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Games",
+          "GTA5.exe"
+        ],
+        "sector_path": [
+          "C:\\Games"
+        ],
+        "full_address": "C:\\Games\\Grand Theft Auto V\\GTA5.exe",
+        "parent_dir": "C:\\Games\\Grand Theft Auto V",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-01-05 14:29:28",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "mscopilot.exe",
+      "process_name": "mscopilot.exe",
+      "path": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\mscopilot.exe",
+      "exe_path": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\mscopilot.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Microsoft",
+          "mscopilot.exe"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\mscopilot.exe",
+        "parent_dir": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-08-22 22:38:23",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Edge",
+      "process_name": "msedge.exe",
+      "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "exe_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Microsoft",
+          "Microsoft Edge"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "parent_dir": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2025-10-15 19:56:47",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "javaw.exe",
+      "process_name": "javaw.exe",
+      "path": "C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe",
+      "exe_path": "C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Java",
+          "javaw.exe"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe",
+        "parent_dir": "C:\\Program Files\\Java\\jdk-21\\bin",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2025-09-23 12:42:11",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Rainmeter desktop customization tool",
+      "process_name": "Rainmeter.exe",
+      "path": "C:\\Program Files\\Rainmeter\\Rainmeter.exe",
+      "exe_path": "C:\\Program Files\\Rainmeter\\Rainmeter.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Rainmeter",
+          "Rainmeter desktop customization tool"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Rainmeter\\Rainmeter.exe",
+        "parent_dir": "C:\\Program Files\\Rainmeter",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2025-08-13 22:14:12",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Discord.exe",
+      "process_name": "Discord.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Discord\\app-1.0.9205\\Discord.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Discord\\app-1.0.9205\\Discord.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Discord.exe"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Discord\\app-1.0.9205\\Discord.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Discord\\app-1.0.9205",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2025-08-28 19:34:17",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Opera GX Internet Browser",
+      "process_name": "opera.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Opera GX Internet Browser"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-04-20 19:49:37",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Wispr Flow.exe",
+      "process_name": "Wispr Flow.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.122\\Wispr Flow.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.122\\Wispr Flow.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Wispr Flow.exe"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.122\\Wispr Flow.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.122",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-08-19 22:36:00",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Zoom Meetings",
+      "process_name": "Zoom.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Zoom Meetings"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Roaming\\Zoom\\bin",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-08-08 12:22:20",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Speech Runtime Executable",
+      "process_name": "SpeechRuntime.exe",
+      "path": "C:\\Windows\\System32\\Speech_OneCore\\common\\SpeechRuntime.exe",
+      "exe_path": "C:\\Windows\\System32\\Speech_OneCore\\common\\SpeechRuntime.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Speech Runtime Executable"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\Speech_OneCore\\common\\SpeechRuntime.exe",
+        "parent_dir": "C:\\Windows\\System32\\Speech_OneCore\\common",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2026-04-18 10:30:57",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "windows.immersivecontrolpanel",
+      "process_name": "windows.immersivecontrolpanel",
+      "path": "windows.immersivecontrolpanel_cw5n1h2txyewy",
+      "exe_path": "windows.immersivecontrolpanel_cw5n1h2txyewy",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "windows.immersivecontrolpanel"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\windows.immersivecontrolpanel_cw5n1h2txyewy",
+        "parent_dir": "C:\\Program Files\\WindowsApps",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": "2025-10-15 19:57:09",
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft.WindowsCamera",
+      "process_name": "Microsoft.WindowsCamera",
+      "path": "Microsoft.WindowsCamera_8wekyb3d8bbwe",
+      "exe_path": "Microsoft.WindowsCamera_8wekyb3d8bbwe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Microsoft.WindowsCamera"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_8wekyb3d8bbwe",
+        "parent_dir": "C:\\Program Files\\WindowsApps",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-08-22 10:19:22"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VirtualCameraService.exe",
+      "process_name": "VirtualCameraService.exe",
+      "path": "C:\\Program Files\\Lenovo\\Smart Meeting\\resources\\Components\\VirtualCameraService_x64_v3.3.0.0\\VirtualCameraService.exe",
+      "exe_path": "C:\\Program Files\\Lenovo\\Smart Meeting\\resources\\Components\\VirtualCameraService_x64_v3.3.0.0\\VirtualCameraService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Lenovo",
+          "VirtualCameraService.exe"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Lenovo\\Smart Meeting\\resources\\Components\\VirtualCameraService_x64_v3.3.0.0\\VirtualCameraService.exe",
+        "parent_dir": "C:\\Program Files\\Lenovo\\Smart Meeting\\resources\\Components\\VirtualCameraService_x64_v3.3.0.0",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-06-15 22:58:10"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Visual Studio Code",
+      "process_name": "Code.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Visual Studio Code"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Microsoft VS Code",
+        "is_pwa": false
+      },
+      "pids": [],
+      "primary_pid": null,
+      "is_running": false,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": "2026-08-10 14:14:37"
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "System",
+      "process_name": "System",
+      "path": "System",
+      "exe_path": "",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "System",
+        "parent_dir": "",
+        "is_pwa": false
+      },
+      "pids": [
+        4
+      ],
+      "primary_pid": 4,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Wispr Flow",
+      "process_name": "Wispr Flow.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\Wispr Flow.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\Wispr Flow.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Wispr Flow"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\Wispr Flow.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483",
+        "is_pwa": false
+      },
+      "pids": [
+        8,
+        2092,
+        3180,
+        7816,
+        11372,
+        14100,
+        14228,
+        17520,
+        19064,
+        24480,
+        25512
+      ],
+      "primary_pid": 8,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Registry",
+      "process_name": "Registry",
+      "path": "Registry",
+      "exe_path": "Registry",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Registry"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "Registry",
+        "parent_dir": "",
+        "is_pwa": false
+      },
+      "pids": [
+        232
+      ],
+      "primary_pid": 232,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Driver Foundation - User-mode Driver Framework Host Process",
+      "process_name": "WUDFHost.exe",
+      "path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "exe_path": "C:\\Windows\\System32\\WUDFHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Driver Foundation - User-mode Driver Framework Host Process"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\WUDFHost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        1176,
+        1620,
+        1772,
+        1816,
+        1864,
+        3848
+      ],
+      "primary_pid": 1176,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Figma Agent",
+      "process_name": "figma_agent.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\FigmaAgent\\figma_agent.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\FigmaAgent\\figma_agent.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Figma Agent"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\FigmaAgent\\figma_agent.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\FigmaAgent",
+        "is_pwa": false
+      },
+      "pids": [
+        1304
+      ],
+      "primary_pid": 1304,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Antigravity IDE",
+      "process_name": "Antigravity IDE.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Antigravity IDE"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Antigravity IDE\\Antigravity IDE.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Antigravity IDE",
+        "is_pwa": false
+      },
+      "pids": [
+        1324,
+        1332,
+        1336,
+        1812,
+        6492,
+        7616,
+        9204,
+        11520,
+        17592,
+        19224,
+        20728,
+        21800,
+        23524,
+        26196,
+        26940,
+        27112
+      ],
+      "primary_pid": 1324,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Credential Guard & VBS Key Isolation",
+      "process_name": "LsaIso.exe",
+      "path": "C:\\Windows\\System32\\LsaIso.exe",
+      "exe_path": "C:\\Windows\\System32\\LsaIso.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Credential Guard & VBS Key Isolation"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\LsaIso.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        1400
+      ],
+      "primary_pid": 1400,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Usermode Font Driver Host",
+      "process_name": "fontdrvhost.exe",
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "exe_path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Usermode Font Driver Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\fontdrvhost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        1548,
+        23244
+      ],
+      "primary_pid": 1548,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "FnHotkeyCapsLKNumLK",
+      "process_name": "FnHotkeyCapsLKNumLK.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "FnHotkeyCapsLKNumLK"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyCapsLKNumLK.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a",
+        "is_pwa": false
+      },
+      "pids": [
+        2456
+      ],
+      "primary_pid": 2456,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel HD Graphics Drivers for Windows(R)",
+      "process_name": "IntelCpHDCPSvc.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_0ef1b60d464b7740\\IntelCpHDCPSvc.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_0ef1b60d464b7740\\IntelCpHDCPSvc.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel HD Graphics Drivers for Windows(R)"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_0ef1b60d464b7740\\IntelCpHDCPSvc.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_0ef1b60d464b7740",
+        "is_pwa": false
+      },
+      "pids": [
+        2644
+      ],
+      "primary_pid": 2644,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows PowerShell 5.1",
+      "process_name": "powershell.exe",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "exe_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows PowerShell 5.1"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "parent_dir": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0",
+        "is_pwa": false
+      },
+      "pids": [
+        3572,
+        16048,
+        20576
+      ],
+      "primary_pid": 3572,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "NVDisplay.Container",
+      "process_name": "NVDisplay.Container.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_949baa7b659dc7f0\\Display.NvContainer\\NVDisplay.Container.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_949baa7b659dc7f0\\Display.NvContainer\\NVDisplay.Container.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "NVDisplay.Container"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_949baa7b659dc7f0\\Display.NvContainer\\NVDisplay.Container.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\nvlt.inf_amd64_949baa7b659dc7f0\\Display.NvContainer",
+        "is_pwa": false
+      },
+      "pids": [
+        3656,
+        9640
+      ],
+      "primary_pid": 3656,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "SEGameTool",
+      "process_name": "SEGameTool.exe",
+      "path": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\SmartColorAddin\\1.1.4.32\\x64\\SEGameTool.exe",
+      "exe_path": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\SmartColorAddin\\1.1.4.32\\x64\\SEGameTool.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "SEGameTool"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\SmartColorAddin\\1.1.4.32\\x64\\SEGameTool.exe",
+        "parent_dir": "C:\\ProgramData\\Lenovo\\Vantage\\Addins\\SmartColorAddin\\1.1.4.32\\x64",
+        "is_pwa": false
+      },
+      "pids": [
+        3816
+      ],
+      "primary_pid": 3816,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantage-(VantageCoreAddin)",
+      "process_name": "LenovoVantage-(VantageCoreAddin).exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(VantageCoreAddin).exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(VantageCoreAddin).exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantage-(VantageCoreAddin)"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(VantageCoreAddin).exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        3820
+      ],
+      "primary_pid": 3820,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "MemCompression",
+      "process_name": "MemCompression",
+      "path": "MemCompression",
+      "exe_path": "MemCompression",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "MemCompression"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "MemCompression",
+        "parent_dir": "",
+        "is_pwa": false
+      },
+      "pids": [
+        4044
+      ],
+      "primary_pid": 4044,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantage-(LenovoGamingSystemAddin)",
+      "process_name": "LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoGamingSystemAddin).exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantage-(LenovoGamingSystemAddin)"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoGamingSystemAddin).exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        4236
+      ],
+      "primary_pid": 4236,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "NotifyMe",
+      "process_name": "VantageBridgePlugin.exe",
+      "path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\VantageBridgePlugin.exe",
+      "exe_path": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\VantageBridgePlugin.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "NotifyMe"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64\\VantageBridgePlugin.exe",
+        "parent_dir": "C:\\ProgramData\\Lenovo\\Udc\\Hosts\\x64",
+        "is_pwa": false
+      },
+      "pids": [
+        4640,
+        16196,
+        21620
+      ],
+      "primary_pid": 4640,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "GameInput",
+      "process_name": "GameInputRedistService.exe",
+      "path": "C:\\Program Files\\Microsoft GameInput\\x64\\GameInputRedistService.exe",
+      "exe_path": "C:\\Program Files\\Microsoft GameInput\\x64\\GameInputRedistService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "GameInput"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Program Files\\Microsoft GameInput\\x64\\GameInputRedistService.exe",
+        "parent_dir": "",
+        "is_pwa": false
+      },
+      "pids": [
+        4736,
+        5688
+      ],
+      "primary_pid": 4736,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Spooler SubSystem App",
+      "process_name": "spoolsv.exe",
+      "path": "C:\\Windows\\System32\\spoolsv.exe",
+      "exe_path": "C:\\Windows\\System32\\spoolsv.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Spooler SubSystem App"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\spoolsv.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        4908
+      ],
+      "primary_pid": 4908,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "CTF Loader",
+      "process_name": "ctfmon.exe",
+      "path": "C:\\Windows\\System32\\ctfmon.exe",
+      "exe_path": "C:\\Windows\\System32\\ctfmon.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "CTF Loader"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\ctfmon.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        4968
+      ],
+      "primary_pid": 4968,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft\u00ae Windows\u00ae Operating System",
+      "process_name": "SearchHost.exe",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+      "exe_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Microsoft\u00ae Windows\u00ae Operating System"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "parent_dir": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+        "is_pwa": false
+      },
+      "pids": [
+        5024,
+        6176,
+        19772,
+        20452
+      ],
+      "primary_pid": 5024,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Edge WebView2",
+      "process_name": "msedgewebview2.exe",
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\157.0.4341.46\\msedgewebview2.exe",
+      "exe_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\157.0.4341.46\\msedgewebview2.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Microsoft",
+          "Microsoft Edge WebView2"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\157.0.4341.46\\msedgewebview2.exe",
+        "parent_dir": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\157.0.4341.46",
+        "is_pwa": false
+      },
+      "pids": [
+        5076,
+        11296,
+        12216,
+        13056,
+        15180,
+        16984,
+        18308,
+        18496,
+        18876,
+        20624,
+        22412,
+        23200,
+        23352,
+        28216
+      ],
+      "primary_pid": 5076,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "AISpeech Audio Effect Control Service",
+      "process_name": "AISControlService.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\aispeechapo.inf_amd64_e77aa1c430b08cf5\\AISControlService.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\aispeechapo.inf_amd64_e77aa1c430b08cf5\\AISControlService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "AISpeech Audio Effect Control Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\aispeechapo.inf_amd64_e77aa1c430b08cf5\\AISControlService.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\aispeechapo.inf_amd64_e77aa1c430b08cf5",
+        "is_pwa": false
+      },
+      "pids": [
+        5132
+      ],
+      "primary_pid": 5132,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "IntelAudioService",
+      "process_name": "IntelAudioService.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_66ea546960968650\\AS\\IAS\\IntelAudioService.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_66ea546960968650\\AS\\IAS\\IntelAudioService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "IntelAudioService"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_66ea546960968650\\AS\\IAS\\IntelAudioService.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_66ea546960968650\\AS\\IAS",
+        "is_pwa": false
+      },
+      "pids": [
+        5152
+      ],
+      "primary_pid": 5152,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel(R) Dynamic Application Loader Host Interface",
+      "process_name": "jhi_service.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385\\jhi_service.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385\\jhi_service.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel(R) Dynamic Application Loader Host Interface"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385\\jhi_service.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_8a3f88e34f6b8385",
+        "is_pwa": false
+      },
+      "pids": [
+        5164
+      ],
+      "primary_pid": 5164,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel(R) Innovation Platform Framework Service Container",
+      "process_name": "ipfsvc.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_eff1f30039f77f6b\\ipfsvc.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_eff1f30039f77f6b\\ipfsvc.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel(R) Innovation Platform Framework Service Container"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_eff1f30039f77f6b\\ipfsvc.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\dtt_sw.inf_amd64_eff1f30039f77f6b",
+        "is_pwa": false
+      },
+      "pids": [
+        5172
+      ],
+      "primary_pid": 5172,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel(R) Innovation Platform Framework Service",
+      "process_name": "ipf_uf.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_uf.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_uf.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel(R) Innovation Platform Framework Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_uf.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1",
+        "is_pwa": false
+      },
+      "pids": [
+        5200
+      ],
+      "primary_pid": 5200,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Lenovo.Modern.ImController",
+      "process_name": "Lenovo.Modern.ImController.exe",
+      "path": "C:\\Windows\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe",
+      "exe_path": "C:\\Windows\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Lenovo.Modern.ImController"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe",
+        "parent_dir": "C:\\Windows\\Lenovo\\ImController\\Service",
+        "is_pwa": false
+      },
+      "pids": [
+        5236
+      ],
+      "primary_pid": 5236,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Lenovo Fn and function keys service",
+      "process_name": "LenovoUtilityService.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Lenovo Fn and function keys service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a",
+        "is_pwa": false
+      },
+      "pids": [
+        5252
+      ],
+      "primary_pid": 5252,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantageService",
+      "process_name": "LenovoVantageService.exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantageService.exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantageService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantageService"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantageService.exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        5268
+      ],
+      "primary_pid": 5268,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel(R) Innovation Platform Framework Utility Application",
+      "process_name": "ipf_helper.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_helper.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_helper.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel(R) Innovation Platform Framework Utility Application"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1\\ipf_helper.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_4b6a23f61a3d7da1",
+        "is_pwa": false
+      },
+      "pids": [
+        5276
+      ],
+      "primary_pid": 5276,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "OfficeClickToRun",
+      "process_name": "OfficeClickToRun.exe",
+      "path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+      "exe_path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Common Files",
+          "OfficeClickToRun"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+        "parent_dir": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun",
+        "is_pwa": false
+      },
+      "pids": [
+        5300
+      ],
+      "primary_pid": 5300,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "NahimicService",
+      "process_name": "NahimicService.exe",
+      "path": "C:\\Windows\\System32\\NahimicService.exe",
+      "exe_path": "C:\\Windows\\System32\\NahimicService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "NahimicService"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\NahimicService.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        5364,
+        15516,
+        19256
+      ],
+      "primary_pid": 5364,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Defender Core Service",
+      "process_name": "MpDefenderCoreService.exe",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MpDefenderCoreService.exe",
+      "exe_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MpDefenderCoreService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "Microsoft Defender Core Service"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MpDefenderCoreService.exe",
+        "parent_dir": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0",
+        "is_pwa": false
+      },
+      "pids": [
+        5384
+      ],
+      "primary_pid": 5384,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VMware NAT Service",
+      "process_name": "vmnat.exe",
+      "path": "C:\\Windows\\System32\\vmnat.exe",
+      "exe_path": "C:\\Windows\\System32\\vmnat.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "VMware NAT Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\vmnat.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        5532
+      ],
+      "primary_pid": 5532,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "UDC Service",
+      "process_name": "UDClientService.exe",
+      "path": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service\\UDClientService.exe",
+      "exe_path": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service\\UDClientService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "UDC Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service\\UDClientService.exe",
+        "parent_dir": "C:\\Windows\\System32\\drivers\\lenovo\\UDC\\Service",
+        "is_pwa": false
+      },
+      "pids": [
+        5556
+      ],
+      "primary_pid": 5556,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VMware VMnet DHCP service",
+      "process_name": "vmnetdhcp.exe",
+      "path": "C:\\Windows\\System32\\vmnetdhcp.exe",
+      "exe_path": "C:\\Windows\\System32\\vmnetdhcp.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "VMware VMnet DHCP service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\vmnetdhcp.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        5564
+      ],
+      "primary_pid": 5564,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Realtek HD Audio Universal Service",
+      "process_name": "RtkAudUService64.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Realtek HD Audio Universal Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d\\RtkAudUService64.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_26f0df01c9da165d",
+        "is_pwa": false
+      },
+      "pids": [
+        5576,
+        8376,
+        23340
+      ],
+      "primary_pid": 5576,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Intel(R) Management Engine WMI Provider Registration",
+      "process_name": "WMIRegistrationService.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_58a0ea2de06916f7\\WMIRegistrationService.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_58a0ea2de06916f7\\WMIRegistrationService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Intel(R) Management Engine WMI Provider Registration"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_58a0ea2de06916f7\\WMIRegistrationService.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_58a0ea2de06916f7",
+        "is_pwa": false
+      },
+      "pids": [
+        5612
+      ],
+      "primary_pid": 5612,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "XtuService",
+      "process_name": "XtuService.exe",
+      "path": "C:\\Windows\\SysWOW64\\XtuService.exe",
+      "exe_path": "C:\\Windows\\SysWOW64\\XtuService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "XtuService"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\SysWOW64\\XtuService.exe",
+        "parent_dir": "C:\\Windows\\SysWOW64",
+        "is_pwa": false
+      },
+      "pids": [
+        5660
+      ],
+      "primary_pid": 5660,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Subsystem for Linux Service",
+      "process_name": "wslservice.exe",
+      "path": "C:\\Program Files\\WSL\\wslservice.exe",
+      "exe_path": "C:\\Program Files\\WSL\\wslservice.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WSL",
+          "Windows Subsystem for Linux Service"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WSL\\wslservice.exe",
+        "parent_dir": "C:\\Program Files\\WSL",
+        "is_pwa": false
+      },
+      "pids": [
+        5668
+      ],
+      "primary_pid": 5668,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Defender Antimalware Service",
+      "process_name": "MsMpEng.exe",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MsMpEng.exe",
+      "exe_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MsMpEng.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "Microsoft Defender Antimalware Service"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\MsMpEng.exe",
+        "parent_dir": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0",
+        "is_pwa": false
+      },
+      "pids": [
+        5788
+      ],
+      "primary_pid": 5788,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "TranslucentTB",
+      "process_name": "TranslucentTB.exe",
+      "path": "C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\\TranslucentTB.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\\TranslucentTB.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "TranslucentTB"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\\TranslucentTB.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj",
+        "is_pwa": false
+      },
+      "pids": [
+        5812
+      ],
+      "primary_pid": 5812,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Wispr Flow Helper",
+      "process_name": "Wispr Flow Helper.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\resources\\Release\\Wispr Flow Helper.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\resources\\Release\\Wispr Flow Helper.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Wispr Flow Helper"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\resources\\Release\\Wispr Flow Helper.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\WisprFlow\\app-1.6.1483\\resources\\Release",
+        "is_pwa": false
+      },
+      "pids": [
+        5948
+      ],
+      "primary_pid": 5948,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VMware Authorization Service",
+      "process_name": "vmware-authd.exe",
+      "path": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-authd.exe",
+      "exe_path": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-authd.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "VMware",
+          "VMware Authorization Service"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-authd.exe",
+        "parent_dir": "C:\\Program Files\\VMware\\VMware Workstation",
+        "is_pwa": false
+      },
+      "pids": [
+        6348
+      ],
+      "primary_pid": 6348,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VMware USB Arbitration Service",
+      "process_name": "vmware-usbarbitrator64.exe",
+      "path": "C:\\Program Files (x86)\\Common Files\\VMware\\USB\\vmware-usbarbitrator64.exe",
+      "exe_path": "C:\\Program Files (x86)\\Common Files\\VMware\\USB\\vmware-usbarbitrator64.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Common Files",
+          "VMware USB Arbitration Service"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Common Files\\VMware\\USB\\vmware-usbarbitrator64.exe",
+        "parent_dir": "C:\\Program Files (x86)\\Common Files\\VMware\\USB",
+        "is_pwa": false
+      },
+      "pids": [
+        6408
+      ],
+      "primary_pid": 6408,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Console Window and PTY Host (Open Source)",
+      "process_name": "OpenConsole.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Console Window and PTY Host (Open Source)"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe",
+        "is_pwa": false
+      },
+      "pids": [
+        6724,
+        17812
+      ],
+      "primary_pid": 6724,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Phone Link",
+      "process_name": "PhoneExperienceHost.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26101.115.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26101.115.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Microsoft Phone Link"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26101.115.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26101.115.0_x64__8wekyb3d8bbwe",
+        "is_pwa": false
+      },
+      "pids": [
+        6896
+      ],
+      "primary_pid": 6896,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "WhatsApp.Root",
+      "process_name": "WhatsApp.Root.exe",
+      "path": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2644.101.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2644.101.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "WhatsApp.Root"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2644.101.0_x64__cv1g1gvanyjgm\\WhatsApp.Root.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2644.101.0_x64__cv1g1gvanyjgm",
+        "is_pwa": false
+      },
+      "pids": [
+        7368
+      ],
+      "primary_pid": 7368,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Shell Infrastructure Host",
+      "process_name": "sihost.exe",
+      "path": "C:\\Windows\\System32\\sihost.exe",
+      "exe_path": "C:\\Windows\\System32\\sihost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Shell Infrastructure Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\sihost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        7552
+      ],
+      "primary_pid": 7552,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Runtime Broker",
+      "process_name": "RuntimeBroker.exe",
+      "path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+      "exe_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Runtime Broker"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\RuntimeBroker.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        7700,
+        13952,
+        16644,
+        19000,
+        20284,
+        23280
+      ],
+      "primary_pid": 7700,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "WMI Provider Host",
+      "process_name": "WmiPrvSE.exe",
+      "path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "exe_path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "WMI Provider Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+        "parent_dir": "C:\\Windows\\System32\\wbem",
+        "is_pwa": false
+      },
+      "pids": [
+        7724,
+        7804,
+        11464
+      ],
+      "primary_pid": 7724,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "WidgetService.exe",
+      "process_name": "WidgetService.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.23.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.23.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "WidgetService.exe"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.23.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.23.0_x64__8wekyb3d8bbwe\\WidgetService",
+        "is_pwa": false
+      },
+      "pids": [
+        7768
+      ],
+      "primary_pid": 7768,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft (R) Aggregator Host",
+      "process_name": "AggregatorHost.exe",
+      "path": "C:\\Windows\\System32\\AggregatorHost.exe",
+      "exe_path": "C:\\Windows\\System32\\AggregatorHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Microsoft (R) Aggregator Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\AggregatorHost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        8096
+      ],
+      "primary_pid": 8096,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Console Window Host",
+      "process_name": "conhost.exe",
+      "path": "C:\\Windows\\System32\\conhost.exe",
+      "exe_path": "C:\\Windows\\System32\\conhost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Console Window Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\conhost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        8288,
+        10472,
+        11080,
+        11128,
+        11544,
+        15792,
+        16112,
+        17568,
+        18180,
+        25220
+      ],
+      "primary_pid": 8288,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Sink to receive asynchronous callbacks for WMI client application",
+      "process_name": "unsecapp.exe",
+      "path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "exe_path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Sink to receive asynchronous callbacks for WMI client application"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+        "parent_dir": "C:\\Windows\\System32\\wbem",
+        "is_pwa": false
+      },
+      "pids": [
+        8296,
+        17516,
+        21928
+      ],
+      "primary_pid": 8296,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "VMware Tray Process",
+      "process_name": "vmware-tray.exe",
+      "path": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-tray.exe",
+      "exe_path": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-tray.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "VMware",
+          "VMware Tray Process"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\VMware\\VMware Workstation\\vmware-tray.exe",
+        "parent_dir": "C:\\Program Files\\VMware\\VMware Workstation",
+        "is_pwa": false
+      },
+      "pids": [
+        8360
+      ],
+      "primary_pid": 8360,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Host Process for Windows Tasks",
+      "process_name": "taskhostw.exe",
+      "path": "C:\\Windows\\System32\\taskhostw.exe",
+      "exe_path": "C:\\Windows\\System32\\taskhostw.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Host Process for Windows Tasks"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\taskhostw.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        8372
+      ],
+      "primary_pid": 8372,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "GamingServices",
+      "process_name": "gamingservices.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_39.118.30001.0_x64__8wekyb3d8bbwe\\gamingservices.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_39.118.30001.0_x64__8wekyb3d8bbwe\\gamingservices.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "GamingServices"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_39.118.30001.0_x64__8wekyb3d8bbwe\\gamingservices.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_39.118.30001.0_x64__8wekyb3d8bbwe",
+        "is_pwa": false
+      },
+      "pids": [
+        8532,
+        8668
+      ],
+      "primary_pid": 8532,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "cowork-svc",
+      "process_name": "cowork-svc.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\resources\\cowork-svc.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\resources\\cowork-svc.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "cowork-svc"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\resources\\cowork-svc.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Claude_2.7032.0.0_x64__pzs8sxrjxfjjc\\app\\resources",
+        "is_pwa": false
+      },
+      "pids": [
+        8676
+      ],
+      "primary_pid": 8676,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "IntelGraphicsSoftware.Service",
+      "process_name": "IntelGraphicsSoftware.Service.exe",
+      "path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "IntelGraphicsSoftware.Service"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software",
+        "is_pwa": false
+      },
+      "pids": [
+        8688
+      ],
+      "primary_pid": 8688,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "codex-windows-sandbox-service",
+      "process_name": "codex-windows-sandbox-service.exe",
+      "path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1111.2228.0_x64__2p2nqsd0c76g0\\app\\resources\\codex-windows-sandbox-service.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1111.2228.0_x64__2p2nqsd0c76g0\\app\\resources\\codex-windows-sandbox-service.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "codex-windows-sandbox-service"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1111.2228.0_x64__2p2nqsd0c76g0\\app\\resources\\codex-windows-sandbox-service.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1111.2228.0_x64__2p2nqsd0c76g0\\app\\resources",
+        "is_pwa": false
+      },
+      "pids": [
+        8708
+      ],
+      "primary_pid": 8708,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Wireless LAN 802.11 Extensibility Framework",
+      "process_name": "wlanext.exe",
+      "path": "C:\\Windows\\System32\\wlanext.exe",
+      "exe_path": "C:\\Windows\\System32\\wlanext.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Wireless LAN 802.11 Extensibility Framework"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\wlanext.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        8872
+      ],
+      "primary_pid": 8872,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Windows Search Indexer",
+      "process_name": "SearchIndexer.exe",
+      "path": "C:\\Windows\\System32\\SearchIndexer.exe",
+      "exe_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Microsoft Windows Search Indexer"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\SearchIndexer.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        9200
+      ],
+      "primary_pid": 9200,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LockApp.exe",
+      "process_name": "LockApp.exe",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+      "exe_path": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "LockApp.exe"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "parent_dir": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+        "is_pwa": false
+      },
+      "pids": [
+        9240
+      ],
+      "primary_pid": 9240,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Command Processor",
+      "process_name": "cmd.exe",
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "exe_path": "C:\\Windows\\System32\\cmd.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Command Processor"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\cmd.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        9652,
+        20448
+      ],
+      "primary_pid": 9652,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Defender AI Platform",
+      "process_name": "DefenderAiPlatformHost.exe",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderAiPlatformHost.exe",
+      "exe_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderAiPlatformHost.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "Microsoft Defender AI Platform"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderAiPlatformHost.exe",
+        "parent_dir": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0",
+        "is_pwa": false
+      },
+      "pids": [
+        9720
+      ],
+      "primary_pid": 9720,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Terminal Host",
+      "process_name": "WindowsTerminal.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Windows Terminal Host"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.25.3131.0_x64__8wekyb3d8bbwe",
+        "is_pwa": false
+      },
+      "pids": [
+        10260
+      ],
+      "primary_pid": 10260,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Node.js JavaScript Runtime",
+      "process_name": "node.exe",
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "exe_path": "C:\\Program Files\\nodejs\\node.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "nodejs",
+          "Node.js JavaScript Runtime"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\nodejs\\node.exe",
+        "parent_dir": "C:\\Program Files\\nodejs",
+        "is_pwa": false
+      },
+      "pids": [
+        10928,
+        14704,
+        26164,
+        30156
+      ],
+      "primary_pid": 10928,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Spotify Launcher",
+      "process_name": "SpotifyLauncher.exe",
+      "path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\SpotifyLauncher.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\SpotifyLauncher.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Spotify Launcher"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\SpotifyLauncher.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0",
+        "is_pwa": false
+      },
+      "pids": [
+        11004
+      ],
+      "primary_pid": 11004,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "IntelGraphicsSoftware.Service.Graphics",
+      "process_name": "IntelGraphicsSoftware.Service.Graphics.exe",
+      "path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.Graphics.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.Graphics.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "IntelGraphicsSoftware.Service.Graphics"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\IntelGraphicsSoftware.Service.Graphics.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software",
+        "is_pwa": false
+      },
+      "pids": [
+        11064
+      ],
+      "primary_pid": 11064,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Service for Intel(R) PresentMon API clients",
+      "process_name": "PresentMonService.exe",
+      "path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\PresentMonService.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\PresentMonService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Service for Intel(R) PresentMon API clients"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software\\PresentMonService.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\AppUp.IntelArcSoftware_26.36.2702.0_x64__8j3eq9eme6ctt\\VFS\\ProgramFilesX64\\Intel\\Intel Graphics Software",
+        "is_pwa": false
+      },
+      "pids": [
+        11088
+      ],
+      "primary_pid": 11088,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Explorer",
+      "process_name": "explorer.exe",
+      "path": "C:\\Windows\\explorer.exe",
+      "exe_path": "C:\\Windows\\explorer.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Windows Explorer"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\explorer.exe",
+        "parent_dir": "C:\\Windows",
+        "is_pwa": false
+      },
+      "pids": [
+        11404
+      ],
+      "primary_pid": 11404,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Hello Security Process",
+      "process_name": "NgcIso.exe",
+      "path": "C:\\Windows\\System32\\NgcIso.exe",
+      "exe_path": "C:\\Windows\\System32\\NgcIso.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Hello Security Process"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\NgcIso.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        11668
+      ],
+      "primary_pid": 11668,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Opera GX Browser Assistant",
+      "process_name": "browser_assistant.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\assistant\\browser_assistant.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\assistant\\browser_assistant.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Opera GX Browser Assistant"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\assistant\\browser_assistant.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Local\\Programs\\Opera GX\\assistant",
+        "is_pwa": false
+      },
+      "pids": [
+        11964,
+        13724
+      ],
+      "primary_pid": 11964,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Nahimic 3",
+      "process_name": "Nahimic3.exe",
+      "path": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.15.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.15.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Nahimic 3"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.15.0_x64__w2gh52qy24etm\\Nahimic3.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\A-Volute.Nahimic_1.10.15.0_x64__w2gh52qy24etm",
+        "is_pwa": false
+      },
+      "pids": [
+        12148
+      ],
+      "primary_pid": 12148,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Rpc Locator",
+      "process_name": "Locator.exe",
+      "path": "C:\\Windows\\System32\\Locator.exe",
+      "exe_path": "C:\\Windows\\System32\\Locator.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Rpc Locator"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\Locator.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        12716
+      ],
+      "primary_pid": 12716,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Nahimic",
+      "process_name": "NahimicAPO4Volume.exe",
+      "path": "C:\\Windows\\System32\\NahimicAPO4Volume.exe",
+      "exe_path": "C:\\Windows\\System32\\NahimicAPO4Volume.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Nahimic"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\NahimicAPO4Volume.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        13472
+      ],
+      "primary_pid": 13472,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "agy",
+      "process_name": "agy.exe",
+      "path": "C:\\Users\\bhuva\\.gemini\\bin\\agy.exe",
+      "exe_path": "C:\\Users\\bhuva\\.gemini\\bin\\agy.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          ".gemini",
+          "agy"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          ".gemini"
+        ],
+        "full_address": "C:\\Users\\bhuva\\.gemini\\bin\\agy.exe",
+        "parent_dir": "C:\\Users\\bhuva\\.gemini\\bin",
+        "is_pwa": false
+      },
+      "pids": [
+        13976,
+        14016
+      ],
+      "primary_pid": 13976,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Hyper-V Host Compute Service",
+      "process_name": "vmcompute.exe",
+      "path": "C:\\Windows\\System32\\vmcompute.exe",
+      "exe_path": "C:\\Windows\\System32\\vmcompute.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Hyper-V Host Compute Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\vmcompute.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        14948
+      ],
+      "primary_pid": 14948,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Bun",
+      "process_name": "opencode.exe",
+      "path": "C:\\Users\\bhuva\\AppData\\Roaming\\npm\\node_modules\\@opencode\\cli\\bin\\opencode.exe",
+      "exe_path": "C:\\Users\\bhuva\\AppData\\Roaming\\npm\\node_modules\\@opencode\\cli\\bin\\opencode.exe",
+      "spatial": {
+        "ring": 4,
+        "zone": "User Subdirectory",
+        "location_keys": [
+          "Users",
+          "bhuva",
+          "AppData",
+          "Bun"
+        ],
+        "sector_path": [
+          "Users",
+          "bhuva",
+          "AppData"
+        ],
+        "full_address": "C:\\Users\\bhuva\\AppData\\Roaming\\npm\\node_modules\\@opencode\\cli\\bin\\opencode.exe",
+        "parent_dir": "C:\\Users\\bhuva\\AppData\\Roaming\\npm\\node_modules\\@opencode\\cli\\bin",
+        "is_pwa": false
+      },
+      "pids": [
+        15868,
+        26616
+      ],
+      "primary_pid": 15868,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Logon Application",
+      "process_name": "winlogon.exe",
+      "path": "C:\\Windows\\System32\\winlogon.exe",
+      "exe_path": "C:\\Windows\\System32\\winlogon.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Logon Application"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\winlogon.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        16612
+      ],
+      "primary_pid": 16612,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Defender Network Inspection Service",
+      "process_name": "NisSrv.exe",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\NisSrv.exe",
+      "exe_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\NisSrv.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "Microsoft Defender Network Inspection Service"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\NisSrv.exe",
+        "parent_dir": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0",
+        "is_pwa": false
+      },
+      "pids": [
+        17016
+      ],
+      "primary_pid": 17016,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "This utility controls special keyboard functions like hotkeys and function keys, on your Lenovo notebook.",
+      "process_name": "FnHotkeyUtility.exe",
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe",
+      "exe_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "This utility controls special keyboard functions like hotkeys and function keys, on your Lenovo notebook."
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\FnHotkeyUtility.exe",
+        "parent_dir": "C:\\Windows\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a",
+        "is_pwa": false
+      },
+      "pids": [
+        17256
+      ],
+      "primary_pid": 17256,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Start Experience Host",
+      "process_name": "StartMenuExperienceHost.exe",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+      "exe_path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Windows Start Experience Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "parent_dir": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+        "is_pwa": false
+      },
+      "pids": [
+        17396
+      ],
+      "primary_pid": 17396,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Spotify Crash Handler",
+      "process_name": "crashpad_handler.exe",
+      "path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\crashpad_handler.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\crashpad_handler.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Spotify Crash Handler"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0\\crashpad_handler.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.309.2055.0_x64__zpdnekdrzrea0",
+        "is_pwa": false
+      },
+      "pids": [
+        18376
+      ],
+      "primary_pid": 18376,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Defender Session Helper",
+      "process_name": "DefenderSessionHelper.exe",
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderSessionHelper.exe",
+      "exe_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderSessionHelper.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "ProgramData",
+          "Microsoft Defender Session Helper"
+        ],
+        "sector_path": [
+          "C:\\ProgramData"
+        ],
+        "full_address": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0\\DefenderSessionHelper.exe",
+        "parent_dir": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26100.4-0",
+        "is_pwa": false
+      },
+      "pids": [
+        19268
+      ],
+      "primary_pid": 19268,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantage-(GenericMessagingAddin)",
+      "process_name": "LenovoVantage-(GenericMessagingAddin).exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(GenericMessagingAddin).exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(GenericMessagingAddin).exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantage-(GenericMessagingAddin)"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(GenericMessagingAddin).exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        19396
+      ],
+      "primary_pid": 19396,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Python",
+      "process_name": "python3.13.exe",
+      "path": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\python3.13.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\python3.13.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Python"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\\python3.13.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0",
+        "is_pwa": false
+      },
+      "pids": [
+        19732
+      ],
+      "primary_pid": 19732,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft\\MicrosoftStartFeedProvider",
+      "process_name": "MicrosoftStartFeedProvider.exe",
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.398.9.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.398.9.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Microsoft\\MicrosoftStartFeedProvider"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.398.9.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.398.9.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider",
+        "is_pwa": false
+      },
+      "pids": [
+        20464
+      ],
+      "primary_pid": 20464,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Security Health Service",
+      "process_name": "SecurityHealthService.exe",
+      "path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+      "exe_path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Security Health Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\SecurityHealthService.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        20944
+      ],
+      "primary_pid": 20944,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Security notification icon",
+      "process_name": "SecurityHealthSystray.exe",
+      "path": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+      "exe_path": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Security notification icon"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        20992
+      ],
+      "primary_pid": 20992,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "User OOBE Broker",
+      "process_name": "UserOOBEBroker.exe",
+      "path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+      "exe_path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "User OOBE Broker"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+        "parent_dir": "C:\\Windows\\System32\\oobe",
+        "is_pwa": false
+      },
+      "pids": [
+        21184
+      ],
+      "primary_pid": 21184,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantage-(SmartInteractAddin)",
+      "process_name": "LenovoVantage-(SmartInteractAddin).exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(SmartInteractAddin).exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(SmartInteractAddin).exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantage-(SmartInteractAddin)"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(SmartInteractAddin).exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        21728
+      ],
+      "primary_pid": 21728,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Application Frame Host",
+      "process_name": "ApplicationFrameHost.exe",
+      "path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+      "exe_path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Application Frame Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        21856
+      ],
+      "primary_pid": 21856,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "AppActions",
+      "process_name": "AppActions.exe",
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+      "exe_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "AppActions"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+        "parent_dir": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+        "is_pwa": false
+      },
+      "pids": [
+        22560
+      ],
+      "primary_pid": 22560,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "LenovoVantage-(LenovoServiceBridgeAddin)",
+      "process_name": "LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "exe_path": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files (x86)",
+          "Lenovo",
+          "LenovoVantage-(LenovoServiceBridgeAddin)"
+        ],
+        "sector_path": [
+          "C:\\Program Files (x86)"
+        ],
+        "full_address": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9\\LenovoVantage-(LenovoServiceBridgeAddin).exe",
+        "parent_dir": "C:\\Program Files (x86)\\Lenovo\\VantageService\\5.1.2609.9",
+        "is_pwa": false
+      },
+      "pids": [
+        22808
+      ],
+      "primary_pid": 22808,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Cross Device Service",
+      "process_name": "CrossDeviceService.exe",
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26102.70.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "exe_path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26102.70.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "WindowsApps",
+          "Microsoft Cross Device Service"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26102.70.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+        "parent_dir": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26102.70.0_x64__cw5n1h2txyewy",
+        "is_pwa": false
+      },
+      "pids": [
+        23620
+      ],
+      "primary_pid": 23620,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Desktop Window Manager",
+      "process_name": "dwm.exe",
+      "path": "C:\\Windows\\System32\\dwm.exe",
+      "exe_path": "C:\\Windows\\System32\\dwm.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Desktop Window Manager"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\dwm.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        24704
+      ],
+      "primary_pid": 24704,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "ActionsServer",
+      "process_name": "ActionsServer.exe",
+      "path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe",
+      "exe_path": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe",
+      "spatial": {
+        "ring": 2,
+        "zone": "Drive Space",
+        "location_keys": [
+          "Program Files",
+          "Microsoft Office",
+          "ActionsServer"
+        ],
+        "sector_path": [
+          "C:\\Program Files"
+        ],
+        "full_address": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe",
+        "parent_dir": "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer",
+        "is_pwa": false
+      },
+      "pids": [
+        26384
+      ],
+      "primary_pid": 26384,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft Windows Search Protocol Host",
+      "process_name": "SearchProtocolHost.exe",
+      "path": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "exe_path": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Microsoft Windows Search Protocol Host"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        26544
+      ],
+      "primary_pid": 26544,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Microsoft\u00ae Volume Shadow Copy Service",
+      "process_name": "VSSVC.exe",
+      "path": "C:\\Windows\\System32\\VSSVC.exe",
+      "exe_path": "C:\\Windows\\System32\\VSSVC.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Microsoft\u00ae Volume Shadow Copy Service"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\VSSVC.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        28512
+      ],
+      "primary_pid": 28512,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Settings",
+      "process_name": "SystemSettings.exe",
+      "path": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+      "exe_path": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "Settings"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "parent_dir": "C:\\Windows\\ImmersiveControlPanel",
+        "is_pwa": false
+      },
+      "pids": [
+        29920
+      ],
+      "primary_pid": 29920,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    },
+    {
+      "app_name": "Windows Defender SmartScreen",
+      "process_name": "smartscreen.exe",
+      "path": "C:\\Windows\\System32\\smartscreen.exe",
+      "exe_path": "C:\\Windows\\System32\\smartscreen.exe",
+      "spatial": {
+        "ring": 1,
+        "zone": "Windows Core",
+        "location_keys": [
+          "Windows",
+          "System32",
+          "Windows Defender SmartScreen"
+        ],
+        "sector_path": [
+          "Windows"
+        ],
+        "full_address": "C:\\Windows\\System32\\smartscreen.exe",
+        "parent_dir": "C:\\Windows\\System32",
+        "is_pwa": false
+      },
+      "pids": [
+        30044
+      ],
+      "primary_pid": 30044,
+      "is_running": true,
+      "microphone": {
+        "active": false,
+        "last_start": null,
+        "wasapi_session": false
+      },
+      "webcam": {
+        "active": false,
+        "last_start": null
+      },
+      "file_reach": {
+        "folders_touched": [],
+        "recent_files": [],
+        "has_access": false
+      }
+    }
+  ]
+}
