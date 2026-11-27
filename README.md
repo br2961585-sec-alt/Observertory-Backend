@@ -47,7 +47,7 @@ Observatory operates without an external cloud backend or intermediate HTTP serv
 | `run_acquired.bat` | 1-click Windows batch launcher for `acquired.py`. |
 | `install_dependencies.bat` | 1-click batch installer for `acquired.py` accelerator dependencies (`psutil`, `pycaw`, `watchdog`). |
 | `requirements.txt` | Python package dependency specifications. |
-| `botony.js` | Reference UI renderer for the 4-tier sunburst radar ([YouTube Reference](https://www.youtube.com/shorts/cfytP6Eb5AM?feature=share)). |
+| `reference/` | Interactive UI prototype & visual reference for the 4-tier sunburst radar ([YouTube Demo](https://www.youtube.com/shorts/cfytP6Eb5AM?feature=share)). |
 | `REFERENCES.md` | Attributions for open-source GitHub references adapted into the engines. |
 | `.gitignore` | Standard exclusions for temporary, PID, and cache files. |
 
