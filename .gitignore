@@ -23,3 +23,9 @@ desktop.ini
 # IDE config
 .vscode/
 .idea/
+
+# Local backup archives
+*.7z
+*.zip
+*.rar
+*.tar.gz
