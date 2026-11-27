@@ -45,6 +45,8 @@ Observatory operates without an external cloud backend or intermediate HTTP serv
 | `collector.json` | Telemetry data snapshot and schema contract (pre-seeded for offline dev). |
 | `assembly.js` | Universal data assembly and 4-tier sunburst geometry engine. |
 | `run_acquired.bat` | 1-click Windows batch launcher for `acquired.py`. |
+| `install_dependencies.bat` | 1-click batch installer for `acquired.py` accelerator dependencies (`psutil`, `pycaw`, `watchdog`). |
+| `requirements.txt` | Python package dependency specifications. |
 | `REFERENCES.md` | Attributions for open-source GitHub references adapted into the engines. |
 | `.gitignore` | Standard exclusions for temporary, PID, and cache files. |
 

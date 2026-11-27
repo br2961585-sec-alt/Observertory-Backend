@@ -1,0 +1,4 @@
+psutil>=5.9.0
+pycaw>=20240101
+comtypes>=1.4.0
+watchdog>=3.0.0
