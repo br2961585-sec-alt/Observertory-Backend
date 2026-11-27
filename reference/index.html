@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0e14">
+  <meta name="description" content="Observatory is a local, four-tier privacy and security radar for running Windows applications.">
+  <title>Observatory — privacy radar</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0e14'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%233d7ea6' stroke-width='1.4'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%232f8f7c' stroke-width='1.4'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23facc15'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=20261116">
+</head>
+<body>
+  <main id="botony-container">
+    <header id="status-pill" class="status-pill" data-state="connecting" aria-label="Telemetry status">
+      <span class="status-led" aria-hidden="true"></span>
+      <span class="status-brand">Observatory</span>
+      <span class="status-word">connecting</span>
+    </header>
+
+    <svg
+      id="botony-svg"
+      role="group"
+      aria-labelledby="chart-title chart-desc"
+    >
+      <title id="chart-title">Observatory live privacy radar</title>
+      <desc id="chart-desc">Four concentric rings place running applications by their physical launch directory: Windows core, drive space, user profiles, and user subdirectories. Each dot is one application. Hover or focus a dot for its process details. Use Tab to enter the radar and the arrow keys to move between applications; Escape exits.</desc>
+      <defs>
+        <!-- One warm bloom for the incandescent hover moment. -->
+        <filter id="glow-warm-yellow" x="-80%" y="-80%" width="260%" height="260%">
+          <feGaussianBlur stdDeviation="4" result="blur1" />
+          <feGaussianBlur stdDeviation="11" result="blur2" />
+          <feMerge>
+            <feMergeNode in="blur2" />
+            <feMergeNode in="blur1" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+
+        <!-- Hardware access: microphone / camera beacon. -->
+        <filter id="glow-alarm" x="-80%" y="-80%" width="260%" height="260%">
+          <feGaussianBlur stdDeviation="4" result="alarmBlur" />
+          <feMerge>
+            <feMergeNode in="alarmBlur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+
+        <!-- Sensitive-file reach. -->
+        <filter id="glow-violet" x="-70%" y="-70%" width="240%" height="240%">
+          <feGaussianBlur stdDeviation="3.4" result="violetBlur" />
+          <feMerge>
+            <feMergeNode in="violetBlur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+    </svg>
+
+    <div id="tooltip" class="botony-tooltip" role="tooltip" aria-hidden="true"></div>
+    <p id="sr-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+  </main>
+
+  <script src="d3.v7.min.js"></script>
+  <script src="assembly.js?v=20261116"></script>
+  <script src="botony.js?v=20261116"></script>
+</body>
+</html>

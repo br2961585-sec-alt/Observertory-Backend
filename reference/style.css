@@ -1,0 +1,756 @@
+/* --------------------------------------------------------------------------
+   Observatory — obsidian radar surface
+   --------------------------------------------------------------------------
+   Colour is semantic:
+     slate  → Windows core        steel  → drive space
+     violet → user profiles       teal   → user subdirectories
+     red    → hardware access     yellow → incandescent hover
+   Everything else stays quiet.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --bg: #0a0e14;
+  --panel: #0f172a;
+  --text: #dce7f3;
+  --muted: #8ea1b5;
+  --faint: #64748b;
+  --hairline: rgba(96, 125, 153, 0.2);
+  --alarm: #ff0055;
+  --warm: #facc15;
+  --warm-stroke: #fef08a;
+  --violet: #a855f7;
+  --font-ui: Bahnschrift, "Segoe UI Variable Display", "Segoe UI", sans-serif;
+  --font-mono: Consolas, "Cascadia Mono", "Courier New", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle at 50% 43%, rgba(51, 82, 112, 0.1), transparent 58%);
+  font-family: var(--font-ui);
+  color: var(--text);
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#botony-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#botony-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: grab;
+}
+
+#botony-svg.is-grabbing {
+  cursor: grabbing;
+}
+
+/* --------------------------------------------------------------------------
+   Status plaque
+   -------------------------------------------------------------------------- */
+
+.status-pill {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 34px;
+  padding: 7px 12px;
+  border: 1px solid rgba(92, 123, 153, 0.22);
+  border-radius: 6px;
+  background: rgba(10, 15, 24, 0.72);
+  box-shadow:
+    0 10px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px) saturate(115%);
+  -webkit-backdrop-filter: blur(12px) saturate(115%);
+  font-size: 11.5px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.status-led {
+  flex: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2f9e77;
+  box-shadow: 0 0 8px rgba(47, 158, 119, 0.8);
+  animation: status-breathe 2.4s ease-in-out infinite;
+}
+
+.status-pill[data-state="connecting"] .status-led {
+  background: #c08a3e;
+  box-shadow: 0 0 8px rgba(192, 138, 62, 0.65);
+}
+
+.status-pill[data-state="offline"] .status-led {
+  background: #df5f5f;
+  box-shadow: 0 0 8px rgba(223, 95, 95, 0.65);
+  animation: none;
+}
+
+.status-brand {
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  color: var(--text);
+}
+
+.status-word {
+  font-size: 10.5px;
+  letter-spacing: 0.02em;
+  color: #79b49f;
+}
+
+.status-pill[data-state="connecting"] .status-word {
+  color: #b99a6b;
+}
+
+.status-pill[data-state="offline"] .status-word {
+  color: #d47c7c;
+}
+
+.status-rule {
+  width: 1px;
+  height: 14px;
+  background: rgba(105, 135, 162, 0.24);
+}
+
+.status-stat {
+  font-size: 11px;
+  color: #8195a9;
+  font-variant-numeric: tabular-nums;
+}
+
+.status-stat b {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.status-alert {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 2px;
+  font-size: 10.5px;
+  font-weight: 500;
+  color: #ff9ab8;
+}
+
+.status-alert .status-led {
+  width: 5px;
+  height: 5px;
+  background: var(--alarm);
+  box-shadow: 0 0 9px rgba(255, 0, 85, 0.9);
+  animation: alarm-breathe 1.2s ease-in-out infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Ring structure
+   -------------------------------------------------------------------------- */
+
+.ring-track {
+  fill: none;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.58;
+}
+
+.ring-track.is-vacant {
+  opacity: 0.22;
+  stroke-dasharray: 2 7;
+}
+
+.ring-sector {
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  transition:
+    fill 0.3s ease,
+    stroke 0.3s ease,
+    opacity 0.2s ease,
+    filter 0.2s ease;
+}
+
+.ring-sector.is-core {
+  fill-opacity: 0.94;
+}
+
+.ring-sector:hover {
+  filter: brightness(1.16);
+}
+
+.ring-sector.is-focused {
+  filter: brightness(1.28);
+}
+
+.sector-spoke {
+  stroke: #3a5a72;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.52;
+  pointer-events: none;
+}
+
+/* --------------------------------------------------------------------------
+   Sector inscriptions
+   -------------------------------------------------------------------------- */
+
+.sector-annotation {
+  pointer-events: none;
+}
+
+.sector-label {
+  fill: #9eb1c4;
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  paint-order: stroke;
+  stroke: rgba(10, 14, 20, 0.92);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+  transition:
+    fill 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.sector-count {
+  fill: #6f8499;
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.sector-annotation.is-focused .sector-label {
+  fill: #dce9f6;
+}
+
+.sector-annotation.is-focused .sector-count {
+  fill: #9fb4c8;
+}
+
+.sector-annotation.is-outside .sector-label {
+  fill: #b7c8d8;
+  font-size: 11px;
+}
+
+.sector-leader {
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Application dots
+   -------------------------------------------------------------------------- */
+
+.app-node {
+  cursor: pointer;
+  outline: none;
+  transition: opacity 0.2s ease;
+}
+
+.node-circle {
+  transition:
+    r 0.15s cubic-bezier(0.22, 0.8, 0.26, 1),
+    fill 0.22s ease,
+    stroke 0.22s ease,
+    stroke-width 0.15s ease,
+    opacity 0.2s ease,
+    filter 0.2s ease;
+}
+
+/* Resting state: quiet, but legible. The OS shell recedes furthest. */
+.dull-node .node-circle {
+  opacity: 0.72;
+  stroke-width: 1.1px;
+}
+
+.os-node.dull-node .node-circle {
+  opacity: 0.58;
+}
+
+/* Incandescent hover — the one deliberately loud moment. */
+.dull-node:hover .node-circle,
+.dull-node:focus-visible .node-circle {
+  r: 10px;
+  fill: var(--warm);
+  stroke: var(--warm-stroke);
+  stroke-width: 3px;
+  opacity: 1;
+  filter: url(#glow-warm-yellow);
+}
+
+/* Sensitive-file reach: violet, but still quieter than hardware access. */
+.file-node .node-circle {
+  fill: var(--violet);
+  stroke: #eadcff;
+  stroke-width: 2.2px;
+  opacity: 1;
+  filter: url(#glow-violet);
+}
+
+.file-node:hover .node-circle,
+.file-node:focus-visible .node-circle {
+  r: 14px;
+  fill: #c084fc;
+  stroke: #f7ecff;
+  stroke-width: 3px;
+  filter: url(#glow-violet);
+}
+
+/* Microphone / camera beacon: the only red object on the canvas. */
+.beacon-node .node-circle {
+  fill: var(--alarm);
+  stroke: #ffd9e5;
+  stroke-width: 2.2px;
+  opacity: 1;
+  filter: url(#glow-alarm);
+}
+
+.beacon-node:hover .node-circle,
+.beacon-node:focus-visible .node-circle {
+  r: 17.5px;
+  fill: #ff2b6f;
+  stroke: #fff0f5;
+  stroke-width: 3.4px;
+  filter: url(#glow-alarm);
+}
+
+.node-pulse-circle {
+  fill: none;
+  stroke: var(--alarm);
+  stroke-width: 2px;
+  pointer-events: none;
+  animation: pulse-ring 1.5s cubic-bezier(0.2, 0.6, 0.3, 1) infinite;
+}
+
+.app-node.is-exiting {
+  pointer-events: none;
+}
+
+/* --------------------------------------------------------------------------
+   Floating HUD tooltip
+   -------------------------------------------------------------------------- */
+
+.botony-tooltip {
+  --ring-accent: #3d7ea6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  display: block;
+  width: 332px;
+  max-width: calc(100vw - 28px);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border: 1px solid rgba(95, 125, 155, 0.28);
+  border-radius: 9px;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.985), rgba(9, 14, 23, 0.985));
+  box-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.64),
+    0 2px 10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(14px) saturate(112%);
+  -webkit-backdrop-filter: blur(14px) saturate(112%);
+  transform: translate3d(0, 0, 0);
+  transition:
+    opacity 0.12s ease,
+    visibility 0.12s ease;
+}
+
+.botony-tooltip.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.botony-tooltip[data-ring="1"] {
+  --ring-accent: #4f7297;
+}
+
+.botony-tooltip[data-ring="2"] {
+  --ring-accent: #3d7ea6;
+}
+
+.botony-tooltip[data-ring="3"] {
+  --ring-accent: #7b68c4;
+}
+
+.botony-tooltip[data-ring="4"] {
+  --ring-accent: #2f8f7c;
+}
+
+.hud-accent {
+  height: 2px;
+  background: var(--ring-accent);
+  box-shadow: 0 0 12px var(--ring-accent);
+}
+
+.hud-body {
+  padding: 13px 15px 14px;
+}
+
+.hud-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hud-title {
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.hud-live {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 7px;
+  border: 1px solid rgba(255, 0, 85, 0.3);
+  border-radius: 999px;
+  background: rgba(255, 0, 85, 0.1);
+  font-size: 10px;
+  font-weight: 600;
+  color: #ff9ab8;
+}
+
+.hud-live::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--alarm);
+  box-shadow: 0 0 7px rgba(255, 0, 85, 0.9);
+}
+
+.hud-sub {
+  margin-top: 3px;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.hud-dim {
+  color: #5f7488;
+}
+
+.hud-location {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+  font-size: 10.5px;
+  color: #93a6ba;
+}
+
+.hud-meter {
+  display: inline-flex;
+  gap: 2px;
+  margin-right: 2px;
+}
+
+.hud-meter i {
+  width: 12px;
+  height: 3px;
+  border-radius: 1px;
+  background: rgba(105, 130, 155, 0.22);
+}
+
+.hud-meter i.is-on {
+  background: var(--ring-accent);
+  box-shadow: 0 0 6px var(--ring-accent);
+}
+
+.hud-sector-name {
+  padding-left: 7px;
+  border-left: 1px solid rgba(105, 130, 155, 0.3);
+  color: #c0cfdd;
+}
+
+.hud-data {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 11px;
+}
+
+.hud-row {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.hud-row dt {
+  font-size: 10px;
+  font-weight: 500;
+  color: #6f8499;
+}
+
+.hud-row dd {
+  min-width: 0;
+  font-size: 11.5px;
+  color: #cdd9e5;
+  font-variant-numeric: tabular-nums;
+}
+
+.hud-path {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1.5;
+  color: #b8c8d8;
+  overflow-wrap: anywhere;
+}
+
+.hud-more {
+  margin-left: 5px;
+  font-size: 10px;
+  color: #7f9ab0;
+}
+
+.hud-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.key-pill {
+  padding: 2px 6px;
+  border: 1px solid rgba(90, 120, 150, 0.16);
+  border-radius: 3px;
+  background: rgba(30, 41, 59, 0.55);
+  font-size: 9.5px;
+  color: #9fb6c9;
+}
+
+.hud-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(90, 120, 150, 0.16);
+}
+
+.hud-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.hud-badge i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.hud-badge.is-mic,
+.hud-badge.is-cam {
+  border-color: rgba(255, 0, 85, 0.24);
+  background: rgba(255, 0, 85, 0.08);
+  color: #ff9ab8;
+}
+
+.hud-badge.is-file {
+  border-color: rgba(168, 85, 247, 0.25);
+  background: rgba(168, 85, 247, 0.08);
+  color: #c9a8ff;
+}
+
+.hud-badge.is-core {
+  border-color: rgba(148, 163, 184, 0.18);
+  background: rgba(148, 163, 184, 0.06);
+  color: #a8b8c9;
+}
+
+.hud-count {
+  flex: none;
+  padding: 2px 7px;
+  border: 1px solid rgba(90, 120, 150, 0.18);
+  border-radius: 999px;
+  background: rgba(30, 41, 59, 0.55);
+  font-size: 10.5px;
+  color: #9fb3c6;
+}
+
+.hud-preview {
+  margin-top: 10px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #b4c4d4;
+}
+
+.hud-hint {
+  margin-top: 6px;
+  font-size: 10.5px;
+  color: #6f8499;
+}
+
+/* --------------------------------------------------------------------------
+   Accessibility
+   -------------------------------------------------------------------------- */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Motion
+   -------------------------------------------------------------------------- */
+
+@keyframes status-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes alarm-breathe {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 9px rgba(255, 0, 85, 0.9);
+  }
+  50% {
+    opacity: 0.45;
+    box-shadow: 0 0 3px rgba(255, 0, 85, 0.5);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    r: 12px;
+    opacity: 0.9;
+  }
+  72% {
+    opacity: 0;
+  }
+  100% {
+    r: 34px;
+    opacity: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  .status-pill {
+    top: 12px;
+    left: 12px;
+    gap: 7px;
+    padding: 6px 10px;
+  }
+
+  .status-brand {
+    font-size: 11.5px;
+  }
+
+  .status-stat {
+    font-size: 10.5px;
+  }
+
+  .botony-tooltip {
+    width: 300px;
+  }
+
+  .sector-label {
+    font-size: 9.5px;
+  }
+
+  .sector-annotation.is-outside .sector-label {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .status-stat,
+  .status-rule {
+    display: none;
+  }
+
+  .status-pill {
+    max-width: calc(100vw - 24px);
+  }
+
+  .botony-tooltip {
+    width: calc(100vw - 24px);
+    max-width: none;
+  }
+
+  .sector-label {
+    font-size: 9px;
+  }
+}
+
+@media (max-height: 520px) {
+  .status-pill {
+    top: 8px;
+    left: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .node-pulse-circle {
+    animation: none;
+    opacity: 0.55;
+    r: 22px;
+  }
+}
